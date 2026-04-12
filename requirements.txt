@@ -1,0 +1,7 @@
+langchain-groq
+langchain-community
+langchain-huggingface
+sentence-transformers
+faiss-cpu
+gradio
+python-dotenv

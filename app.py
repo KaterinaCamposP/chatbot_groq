@@ -95,4 +95,7 @@ title="Panadería Ositos - Asistente Virtual 🐻",
 )
 
 if __name__ == "__main__":
-    demo.launch(server_name="0.0.0.0", server_port=7860)
+    port = int(os.environ.get("PORT", 7860))
+    
+    # IMPORTANTE: server_name debe ser "0.0.0.0" para que Render pueda entrar
+    demo.launch(server_name="0.0.0.0", server_port=port)
